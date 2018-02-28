@@ -5909,9 +5909,9 @@ body {
   color: #767676;
 }
 .cid-qKV8oBDi4k {
-  padding-top: 60px;
+  padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   position: relative;
 }
 .cid-qKV8oBDi4k .card {
@@ -5946,10 +5946,13 @@ body {
 .cid-qKV8oBDi4k .card .panel-body {
   color: #767676;
 }
+.cid-qKV8oBDi4k SPAN {
+  color: #089a45;
+}
 .cid-qKVYmxsQU3 {
   padding-top: 0px;
   padding-bottom: 60px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   position: relative;
 }
 .cid-qKVYmxsQU3 .card {
