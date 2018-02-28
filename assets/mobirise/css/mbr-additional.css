@@ -22,10 +22,10 @@ body {
 }
 .display-1 {
   font-family: 'Bungee Inline', display;
-  font-size: 4.25rem;
+  font-size: 5.6rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 8.96rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -62,9 +62,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4.48rem;
+    font-size: calc( 2.61rem + (5.6 - 2.61) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.61rem + (5.6 - 2.61) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -2002,6 +2002,12 @@ body {
 .cid-qKv4OYlbe4 H2 {
   text-align: center;
 }
+.cid-qKv4OYlbe4 P {
+  text-align: center;
+}
+.cid-qKv4OYlbe4 B {
+  color: #ffffff;
+}
 .cid-qKv7yUZ9vY {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2941,7 +2947,7 @@ body {
 }
 .cid-qKwaA6N6J2 {
   padding-top: 120px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-qKwaA6N6J2 .mbr-section-subtitle {
@@ -3050,12 +3056,134 @@ body {
 }
 .cid-qKwaA6N6J2 .mbr-timeline-text {
   color: #bc2024;
+  text-align: center;
 }
 .cid-qKwaA6N6J2 .mbr-timeline-title {
   color: #ffffff;
+  text-align: center;
 }
 .cid-qKwaA6N6J2 .mbr-timeline-date {
   color: #ffffff;
+}
+.cid-qKYr5grCpN {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #f8f8f8;
+}
+.cid-qKYr5grCpN .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-qKYr5grCpN .timeline-text-content {
+  padding: 2rem 2.5rem;
+  background: #000000;
+  margin-left: 2rem;
+}
+.cid-qKYr5grCpN .timeline-text-content p {
+  margin-bottom: 0;
+}
+.cid-qKYr5grCpN .time-line-date-content {
+  margin-right: 2rem;
+}
+.cid-qKYr5grCpN .time-line-date-content p {
+  padding: 2rem 2.5rem;
+  background: #000000;
+  float: right;
+}
+.cid-qKYr5grCpN .timeline-element {
+  margin-bottom: 50px;
+  position: relative;
+  word-wrap: break-word;
+  word-break: break-word;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.cid-qKYr5grCpN .timeline-element:hover .mbr-timeline-date {
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
+  transition: all .4s;
+}
+.cid-qKYr5grCpN .timeline-element:hover .timeline-text-content {
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
+  transition: all .4s;
+}
+.cid-qKYr5grCpN .mbr-timeline-date,
+.cid-qKYr5grCpN .timeline-text-content {
+  transition: all .4s;
+}
+.cid-qKYr5grCpN .reverse {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-qKYr5grCpN .reverse .timeline-text-content {
+  margin-right: 2rem;
+  margin-left: 0;
+}
+.cid-qKYr5grCpN .reverse .time-line-date-content {
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+.cid-qKYr5grCpN .reverse .time-line-date-content p {
+  float: left;
+}
+.cid-qKYr5grCpN .iconBackground {
+  position: absolute;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  display: inline-block;
+  background-color: #000000;
+  top: 20px;
+  margin-left: -10px;
+}
+.cid-qKYr5grCpN .separline:before {
+  top: 20px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #000000;
+  left: calc(50% - 1px);
+  height: calc(100% + 4rem);
+}
+@media (max-width: 768px) {
+  .cid-qKYr5grCpN .iconBackground {
+    left: 0 !important;
+  }
+  .cid-qKYr5grCpN .separline:before {
+    left: 0!important;
+  }
+  .cid-qKYr5grCpN .timeline-text-content {
+    margin-left: 0 !important;
+  }
+  .cid-qKYr5grCpN .time-line-date-content {
+    margin-right: 0 !important;
+  }
+  .cid-qKYr5grCpN .time-line-date-content p {
+    float: left !important;
+  }
+  .cid-qKYr5grCpN .reverse .time-line-date-content {
+    margin-left: 0 !important;
+  }
+  .cid-qKYr5grCpN .reverse .timeline-text-content {
+    margin-right: 0 !important;
+  }
+}
+.cid-qKYr5grCpN .mbr-timeline-title {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-qKYr5grCpN .mbr-timeline-date {
+  color: #ffffff;
+}
+.cid-qKYr5grCpN .mbr-timeline-text {
+  color: #bc2024;
+  text-align: center;
 }
 .cid-qKv23jN33G .navbar {
   padding: .5rem 0;
@@ -3915,6 +4043,7 @@ body {
 }
 .cid-qKKjY3eHxD .mbr-text {
   color: #ffffff;
+  text-align: center;
 }
 .cid-qKKjY3eHxD .card-wrapper {
   height: 100%;
@@ -4404,16 +4533,73 @@ body {
 .cid-qKwbqrPGtJ H2 {
   text-align: center;
 }
+.cid-qKYjody2gw {
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background: #ffffff;
+}
+.cid-qKYjody2gw .image-block {
+  margin: auto;
+}
+.cid-qKYjody2gw figcaption {
+  position: relative;
+}
+.cid-qKYjody2gw figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qKYjody2gw .image-block {
+    width: 100% !important;
+  }
+}
 .cid-qKwbqMNmsO {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-qKwbqMNmsO .mbr-section-subtitle {
   color: #767676;
 }
 .cid-qKwbqMNmsO H2 {
-  text-align: left;
+  text-align: center;
+}
+.cid-qKYmlfDL3t {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-qKYmlfDL3t .mbr-text,
+.cid-qKYmlfDL3t blockquote {
+  color: #767676;
+}
+.cid-qKYmlfDL3t B {
+  color: #000000;
+}
+.cid-qKYmlfDL3t P {
+  text-align: center;
+}
+.cid-qKYndAgB5r {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background: #ffffff;
+}
+.cid-qKYndAgB5r .image-block {
+  margin: auto;
+}
+.cid-qKYndAgB5r figcaption {
+  position: relative;
+}
+.cid-qKYndAgB5r figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qKYndAgB5r .image-block {
+    width: 100% !important;
+  }
 }
 .cid-qKKnezLqZQ {
   padding-top: 120px;
@@ -5503,13 +5689,14 @@ body {
   background-color: #ffffff;
 }
 .cid-qKJL3rxrlc .mbr-section-subtitle {
-  color: #767676;
+  color: #000000;
 }
 .cid-qKJL3rxrlc H2 {
   text-align: center;
 }
 .cid-qKJL3rxrlc .mbr-section-subtitle DIV {
   text-align: left;
+  color: #000000;
 }
 .cid-qKv23jN33G .navbar {
   padding: .5rem 0;
